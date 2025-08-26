@@ -219,6 +219,7 @@ class ClothingCatalog {
                 <img src="${product.image || 'https://via.placeholder.com/300x250?text=Product+Image'}" 
                      alt="${product.name}" 
                      class="product-image"
+                     loading="lazy"
                      onerror="this.src='https://via.placeholder.com/300x250?text=Product+Image'">
                 <div class="product-info">
                     <h3 class="product-name">${product.name}</h3>
