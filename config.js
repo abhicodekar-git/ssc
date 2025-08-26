@@ -46,6 +46,9 @@ const WEBSITE_CONFIG = {
         { id: "pants", name: "Pants", active: true },
         { id: "suits", name: "Suits", active: true },
         { id: "accessories", name: "Accessories", active: true }
+        { id: "kids", name: "Kids", active: true }  
+
+
         // Add new categories here
     ],
 
